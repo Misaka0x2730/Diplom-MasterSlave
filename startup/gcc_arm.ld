@@ -13,7 +13,6 @@ SECTIONS
         .text : ALIGN(4)
         {
                 KEEP(*(.isr_vectors))
-
                 *(.text)
                 *(.text.*)
                 *(.rodata)
@@ -44,7 +43,6 @@ SECTIONS
         .bss : ALIGN(4)
         {
                 _sbss = . ;
-
                 *(.bss)
                 *(.bss.*)
                 *(COMMON)

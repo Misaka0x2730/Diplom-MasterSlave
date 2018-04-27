@@ -17,7 +17,7 @@
  */
 
 /*----------Stack Configuration-----------------------------------------------*/
-#define STACK_SIZE       0x00001000      /*!< The Stack size suggest using even number   */
+#define STACK_SIZE       0x00000400      /*!< The Stack size suggest using even number   */
 __attribute__ ((section(".stack")))
 unsigned long pulStack[STACK_SIZE];
 
@@ -339,5 +339,6 @@ static void Default_Handler(void)
   {
   }
 }
+
 
 /*********************** (C) COPYRIGHT 2011 Coocox ************END OF FILE*****/

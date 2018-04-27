@@ -8,4 +8,5 @@ typedef signed     short   s16_t;
 typedef unsigned   int     u32_t;
 typedef signed 	   int     s32_t;
 
+#define ERROR_OK   ((u8_t)0)
 #endif /* TYPES_H_ */
